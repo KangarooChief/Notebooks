@@ -29,7 +29,7 @@ def gen():
         choices = {k:v for k,v in list(trigram.items()) if k[0:2] == word[-2:]}
         word += np.random.choice(list(choices.keys()), p=list(choices.values()))[2]
         if word[-1] == " ":
-            break
+            breakgpg
     return word[2:]
 
 
