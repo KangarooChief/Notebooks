@@ -30,4 +30,3 @@ def genWeights(m):
     return ws
 
 ws = genWeights(101)
-#testing
